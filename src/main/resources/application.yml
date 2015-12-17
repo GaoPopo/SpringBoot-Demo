@@ -1,0 +1,26 @@
+# Server settings
+server:
+  port: 8765
+
+# Spring PROFILES
+spring:
+    # HTTP ENCODING
+    http:
+        encoding.charset: UTF-8
+        encoding.enable: true
+        encoding.force: true
+
+
+# JDBC PROFILES
+#jdbc:
+#    driverClass: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://115.29.139.173:3306/jyq_sit?characterEncoding=utf8
+#    username: jyqadm
+#    password: \`NAp$@nW
+
+
+# MyBatis PROFILE
+#mybatis:
+#    config: classpath:/mybatis-config.xml
+#    typeAliasesPackage: com.symdata.**.domain
+#    mapperLocations: classpath:/com/symdata/**/mapper/*.xml
